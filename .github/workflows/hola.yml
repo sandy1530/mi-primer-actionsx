@@ -1,0 +1,8 @@
+name : Hola GitHub Actions
+on: push
+jobs: 
+  saludo:
+  runs-on: ubunto-latest
+  steps:
+  name: Mostrar mensaje
+  run: echo"Hola! Estoy usando GitHub Actions" 
