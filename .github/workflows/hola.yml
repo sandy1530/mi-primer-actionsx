@@ -1,8 +1,9 @@
-name : Hola GitHub Actions
+name: Hola GitHub Actions
 on: push
-jobs: 
+
+jobs:
   saludo:
-  runs-on: ubunto-latest
-  steps:
-  name: Mostrar mensaje
-  run: echo"Hola! Estoy usando GitHub Actions" 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mostrar mensaje
+        run: echo "¡Hola! Estoy usando GitHub Actions"
